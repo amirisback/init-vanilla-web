@@ -1,0 +1,22 @@
+=== PROOF AC-01: NPM SCRIPTS EXECUTION ===
+Date: 2026-09-18
+Commands Tested:
+1. npm run build:css
+2. npm run build:ts
+3. npm run build
+
+Output of npm run build:
+> init-vanilla-web@1.0.0 build
+> npm run build:css && npm run build:ts
+
+> init-vanilla-web@1.0.0 build:css
+> tailwindcss -i ./src/styles/main.css -o ./dist/output.css --minify
+
+≈ tailwindcss v4.3.3
+Done in 207ms
+
+> init-vanilla-web@1.0.0 build:ts
+> tsc
+
+Exit Code: 0 (Success)
+All scripts executed cleanly and sequentially without error.

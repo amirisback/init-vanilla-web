@@ -1,0 +1,23 @@
+=== PROOF AC-05: BROWSER AUTOMATION & UI VERIFICATION ===
+Date: 2026-09-18
+Target: http://localhost:3000/
+Recording File: C:\Users\tech\.gemini\antigravity-ide\brain\8c1f9998-506e-491a-b7b1-a41cc4945cab\vanilla_web_demo_1789710744220.webp
+
+Verification Checklist:
+1. [PASS] Page title verified: "Vanilla Web Starter - HTML, JS, TS & Tailwind CSS v4"
+2. [PASS] Typography: Outfit and Inter Google Fonts loaded cleanly.
+3. [PASS] Dark Theme: Slate-950 base background with ambient violet/indigo blur glow.
+4. [PASS] Counter Widget Reactive Interaction:
+   - Initial count: 0 (Badge: Zero, Parity: Even, History: [0])
+   - Click +1 three times: Count updated to 3 (Badge: Positive, Parity: Odd, History: [3, 2, 1, 0])
+   - Click x2: Count updated to 6 (Badge: Positive, Parity: Even, History: [6, 3, 2, 1, 0])
+   - DOM pulse animation triggered on state change.
+5. [PASS] Theme Toggle:
+   - Click toggle button: Class list changed to 'light', background transitioned smoothly to light slate.
+   - Click toggle button again: Class list reverted to 'dark', sun icon restored.
+6. [PASS] Quickstart Code Copy:
+   - Click "Copy Script" button: Visual feedback changed label to green "Copied!" for 2 seconds.
+7. [PASS] Navigation links: Features, Interactive Demo, Quickstart, Structure smooth scroll to target IDs.
+8. [PASS] Footer: Dynamic year "2026" displayed properly.
+
+Verification Status: 100% Passed. UI aesthetics, responsiveness, and interactivity confirmed.

@@ -1,0 +1,22 @@
+{
+  "name": "init-vanilla-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Modern Vanilla HTML, JS, and TypeScript starter repository with Tailwind CSS v4 without any frontend framework.",
+  "type": "module",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles/main.css -o ./dist/output.css --minify",
+    "build:ts": "tsc",
+    "build": "npm run build:css && npm run build:ts",
+    "watch:css": "tailwindcss -i ./src/styles/main.css -o ./dist/output.css --watch",
+    "watch:ts": "tsc --watch",
+    "serve": "node scripts/serve.js",
+    "preview": "node scripts/serve.js",
+    "start": "npm run serve"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.0"
+  }
+}
